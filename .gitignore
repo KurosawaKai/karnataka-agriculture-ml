@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local Data & Cache
+data/
+*.csv
+*.parquet
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
